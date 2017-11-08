@@ -1,8 +1,7 @@
 function [translational_velocity, rotational_velocity] = visual_odometry(raw_image)
 % A simple visual odometry with scanline intensity profile algorithm.
 % the input is a raw image
-% the output including vtransn (translational velocity(speed)) and vrot (rotational
-% velocity (speed))
+% the output including translational velocity(speed)) and rotational velocity (speed)
 
 
 %%% start to set up the visual odometry 
@@ -77,7 +76,7 @@ image_x_sums = image_x_sums / average_intensity;
 % function [offset, sdif] = compare_segments(seg1, seg2, shift_length, compare_length_of_intensity)
 % seg1, seg2 represent 1D arrays of the intensity profiles of the current image and previous image.
 % shift_length is the range of offsets in pixels to consider i.e. slen = 0 considers only the no offset case
-% compare_length_of_intensity is the length of the intensity profile to actually compare, and must be < than image width – 1 * slen
+% compare_length_of_intensity is the length of the intensity profile to actually compare, and must be < than image width â€“ 1 * slen
 
 [minimum_offset, minimum_difference_intensity] = compare_segments(image_x_sums, PREVIOUS_TRANSLATIONAL_VELOCITY_IMAGE_X_SUMS, VISUAL_ODOMETRY_SHIFT_MATCH, size(image_x_sums, 2));
 
