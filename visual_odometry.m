@@ -4,7 +4,7 @@ function [translational_velocity, rotational_velocity] = visual_odometry(raw_ima
 % the output including translational velocity(speed)) and rotational velocity (speed)
 
 
-%%% start to set up the visual odometry 
+%%% start to set up the visual odometry
 
 % x_sums, sum each column of intensity in the current image and previous
 % image perspectively.
