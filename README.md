@@ -1,4 +1,4 @@
 # 1D_SLAM_V1_01
-the code is based on the RatSLAM
+The code is based on the RatSLAM, only for study the principle and model of RatSLAM.
 
-brain-inspired 1D head direction cells model for visual SLAM
+Brain-inspired 1D head direction cells model for visual SLAM
