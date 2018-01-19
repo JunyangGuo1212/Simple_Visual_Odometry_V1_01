@@ -1,4 +1,5 @@
-# 1D_SLAM_V1_01
-The code is based on the RatSLAM, only for study the principle and model of RatSLAM.
+# Simple_Visual_Odometry_V1_01
 
-Brain-inspired 1D head direction cells model for visual SLAM
+The code is based on the OpenRatSLAM (https://github.com/davidmball/ratslam), only for studying the principle of visual odometry.
+
+For further more info http://blog.yufangwen.com/ 
